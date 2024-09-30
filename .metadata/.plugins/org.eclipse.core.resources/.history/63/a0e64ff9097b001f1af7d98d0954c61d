@@ -1,0 +1,5 @@
+package net.taehyeon.kdtcom.dto;
+
+public class MemberDto {
+
+}

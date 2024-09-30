@@ -1,0 +1,95 @@
+package net.taehyeon.community.service;
+
+import java.io.File;
+import java.io.IOException;
+
+import javax.servlet.ServletContext;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+@Service
+public class FileUploadService implements FileUpload{
+
+	// 서블릿 콘텍스트 빈에서 꺼내기
+	@Autowired
+	private ServletContext servletContext;
+
+	// 확장자 읽기
+    private String[] allowedExt;
+
+	// 파일 크기 셋팅
+	private long maxSize;
+
+	// 저장경로 필드
+	private String path;
+
+	@Override
+    public String[] setAllowedExt(String[] allowedExt) {
+		return this.allowedExt = allowedExt;
+	}
+
+	@Override
+	public long getMaxSize() {
+		return maxSize;
+	}
+
+	@Override
+	public void setMaxSize(long maxSize) {
+		this.maxSize = maxSize;
+	}
+
+	@Override
+	public String getAbsolutePath() {
+		return path;
+	}
+
+	@Override
+	public void setAbsolutePath(String path) {
+		this.path = servletContext.getRealPath("/res/upload/") + path + "/";
+	}
+
+	//파일 업로드
+	public String uploadFile(MultipartFile file) throws IOException {
+		if (file == null || file.isEmpty()) {
+			throw new IllegalArgumentException("");
+		}
+		if (maxSize > 0 && file.getSize() > maxSize) {
+			throw new IllegalArgumentException("");
+		}
+
+		if (allowedExt != null && allowedExt.length > 0) {
+			String fileExt = getFileExt(file.getOriginalFilename());
+			boolean isOkFileExt = false;
+
+			for (String ext : allowedExt) {
+				if (fileExt.equals(ext)) {
+					isOkFileExt = true;
+					break;
+				}
+			}
+			if (!isOkFileExt) {
+				throw new IllegalArgumentException("");
+			}
+		}
+
+		String orFilename = file.getOriginalFilename();
+		String filename = System.currentTimeMillis() + "_" + orFilename;
+		File dest = new File(getAbsolutePath(), filename);
+
+		file.transferTo(dest);
+		return filename;
+	}
+
+	// 확장자 가져오기
+	@Override
+	public String getFileExt(String filename) {
+		if (filename == null || filename.isEmpty()) {
+			return "";
+		}
+		int dotIndex = filename.lastIndexOf(".");
+		return (dotIndex != -1 && dotIndex < filename.length() - 1) ? filename.substring(dotIndex + 1) : "";
+	}
+
+}

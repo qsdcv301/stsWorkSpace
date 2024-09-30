@@ -1,0 +1,5 @@
+package net.taehyeon.kdtcom.mapper;
+
+public interface MembersMapper {
+
+}

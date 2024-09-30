@@ -1,0 +1,44 @@
+package net.taehyeon.kdtcom.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import net.taehyeon.kdtcom.model.MemberDto;
+
+public class MemberDaoImpl implements MemberDao {
+
+	@Autowired
+	private MemberMapper memMapper;
+	
+	@Override
+	public List<MemberDto> getAllMem() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MemberDto getMem(int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertMem(MemberDto dto) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateMem(MemberDto dto) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delMem(int num) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

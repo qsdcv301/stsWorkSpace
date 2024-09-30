@@ -1,0 +1,9 @@
+package net.taehyeon.kdtcom.dao;
+
+import net.taehyeon.kdtcom.model.MemberDto;
+
+public interface MemberDao {
+
+	void insertMember(MemberDto dto);
+	
+}

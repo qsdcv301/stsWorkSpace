@@ -1,0 +1,12 @@
+package net.taehyeon.community.service;
+
+public class Snippet {
+	@RequestParam("userid") String userid, @RequestParam("userpass") String noopUserpass,
+	                               @RequestParam("username") String username, @RequestParam("useremail") String useremail,
+	                               @RequestParam("usertel") String usertel, @RequestParam("zipcode") int zipcode,
+	                               @RequestParam("address") String address, @RequestParam("detail_address") String detail_address,
+	                               @RequestParam("extra_address") String extra_address, @RequestParam("userprofile") String userprofile,
+	                               @RequestParam(value = "userimg", required = false) MultipartFile userimg, HttpServletRequest request,
+	                               Model model
+}
+

@@ -1,0 +1,23 @@
+1727227911950	Rename resource 'appservlet'
+1727229770976	Delete element
+1727230008332	Delete element
+1727231722704	Delete element
+1727235341721	Move 'tiles' to 'resources'
+1727241328823	Rename resource 'register.html'
+1727241493515	Delete element
+1727243160502	Move 2 resources to 'layout'
+1727246359914	Rename resource 'Mapper'
+1727246367186	Rename resource 'MemberMapper.xml'
+1727246516784	Rename type 'MembersMapper'
+1727247637061	Move compilation unit
+1727329807152	Rename resource 'MembersMapper.xml'
+1727333016470	Delete element
+1727333314529	Move compilation unit
+1727333321406	Delete element
+1727333371676	Delete element
+1727333393534	Delete element
+1727333738539	Rename type 'Member'
+1727336878309	Rename resource 'mapper'
+1727415732641	Rename compilation unit 'setUlintIpAddress.java'
+1727420728520	Rename resource 'mamber-mapper.xml'
+1727421374174	Rename resource 'Mamber-Mapper.xml'

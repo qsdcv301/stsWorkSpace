@@ -1,0 +1,16 @@
+package net.taehyeon.kdtcom.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import net.taehyeon.kdtcom.model.MemberDto;
+
+public class MemberDao {
+
+	@Autowired
+	private MemberMapper memberMapper;
+	
+	Object insertMem(MemberDto dto) {
+		return memberMapper.insertMember(dto);
+	}
+	
+}

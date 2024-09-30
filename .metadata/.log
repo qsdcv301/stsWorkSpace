@@ -1,0 +1,865 @@
+!SESSION 2024-09-30 12:33:12.992 -----------------------------------------------
+eclipse.buildId=3.9.18.202109140905-RELEASE-e421
+java.version=11.0.23
+java.vendor=OpenLogic
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+This is a continuation of log file C:\project\stsworks\.metadata\.bak_0.log
+Created Time: 2024-09-30 12:37:06.050
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:06.051
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:06.053
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:20.377
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:20.381
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:26.017
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:26.023
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:29.697
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:29.701
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:33.230
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 12:37:33.233
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:04:24.423
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:04:24.437
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:04:32.767
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:04:32.772
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:06.419
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:06.424
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:12.009
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:12.019
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:12.279
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.231
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.241
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.261
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.263
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.265
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.266
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:09:13.268
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:38.179
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:38.183
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.403
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.412
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.426
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.904
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.914
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.917
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.918
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.919
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.920
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:39:43.922
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.064
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.075
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.083
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.421
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.424
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.710
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.720
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.723
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.724
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.726
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.727
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:12.729
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.377
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.387
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.394
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.807
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.835
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.840
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.850
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.852
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.854
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:44:42.858
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:49:27.349
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:49:27.356
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:18.508
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:18.511
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:21.768
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:21.776
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:21.782
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.194
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.204
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.210
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.211
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.213
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.214
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:52:22.217
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:33.149
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:33.153
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:36.698
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:36.707
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:36.712
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.110
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.118
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.121
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.122
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.125
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.126
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 13:57:37.129
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:07:37.210
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:07:37.214
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:27.618
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:27.622
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:39.200
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:39.203
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.366
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.373
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.378
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.784
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.794
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.799
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.800
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.801
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.802
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:12:43.804
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:16.600
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:16.602
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.387
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.397
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.402
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.803
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.866
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.870
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.871
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.872
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.872
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:14:22.878
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:24.110
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:24.114
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:25.242
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:25.244
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:54.455
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:54.459
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.331
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.339
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.353
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.697
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.706
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.710
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.710
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.712
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:37:58.715
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:39:38.332
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:39:38.335
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:40:06.136
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:40:06.140
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:01.229
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:01.238
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:01.245
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:12.160
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:12.162
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:25.172
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:41:25.175
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:09.543
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:09.553
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:09.560
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:13.663
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:13.665
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:21.180
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:21.187
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:21.194
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:23.010
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:23.017
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:42.612
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:42.615
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:49.847
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:49.849
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:54.348
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:42:54.350
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:43:16.323
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:43:16.326
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:49:28.220
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:49:28.225
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:50:19.847
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 14:50:19.850
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:26:26.770
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:26:26.773
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:54.771
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:54.779
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:54.787
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.155
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.159
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.479
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.487
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.491
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.492
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.493
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.494
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:55.500
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:57.545
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:38:57.547
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:00.818
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:00.825
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:00.831
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.149
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.158
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.161
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.161
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.163
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.163
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:39:01.166
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:09.781
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:09.782
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:11.952
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:11.959
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:11.965
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.505
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.514
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.517
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.517
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.518
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.519
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:42:12.522
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:12.080
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:12.083
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.256
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.264
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.270
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.985
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.995
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.998
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:13.999
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:14.000
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:14.001
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 15:57:14.003
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:56.415
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:56.419
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:58.724
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:58.732
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:58.737
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.037
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.044
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.046
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.047
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.047
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.048
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:02:59.050
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:17.460
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:17.463
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:30.894
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:30.900
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:30.906
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.210
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.219
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.222
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.223
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.223
+!MESSAGE The POM for org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.224
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-war-plugins:3.2.3: Plugin org.apache.maven.plugins:maven-war-plugins:3.2.3 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-war-plugins:jar:3.2.3 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:06:31.226
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.core 4 0 2024-09-30 16:06:50.035
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:08:17.807
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:08:17.809
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\aspectjrt-1.6.10.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\commons-beanutils-1.8.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\commons-collections-3.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\commons-digester-2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\commons-fileupload-1.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\commons-io-2.11.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\commons-lang-2.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\compiler-0.8.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\freemarker-2.3.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\guava-12.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\javassist-3.7.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\javax.inject-1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\jcl-over-slf4j-1.6.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\jsr305-1.3.9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\jstl-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\log4j-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\mvel2-2.0.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\mybatis-3.5.16.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\mybatis-spring-2.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\mysql-connector-j-8.4.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\ognl-2.7.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\oro-2.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\protobuf-java-3.25.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\slf4j-api-1.6.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\slf4j-log4j12-1.6.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-aop-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-beans-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-context-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-core-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-expression-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-jcl-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-jdbc-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.229
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-tx-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-web-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\spring-webmvc-5.2.25.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-api-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-autotag-core-runtime-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-compat-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-core-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-el-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-extras-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-freemarker-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-jsp-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-mvel-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-ognl-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-api-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-freemarker-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-jsp-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-mustache-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-servlet-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-servlet-wildcard-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-request-velocity-1.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-servlet-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-template-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\tiles-velocity-3.0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\velocity-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2024-09-30 16:08:24.230
+!MESSAGE Could not delete C:\project\stsworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\community\WEB-INF\lib\velocity-tools-2.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:10:05.042
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:10:05.043
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:10:18.380
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:10:18.381
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:13:00.560
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 16:13:00.563
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,0 +1,5 @@
+package net.taehyeon.kdtcom.model;
+
+public class Member {
+
+}

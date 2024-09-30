@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.taehyeon</groupId>
+  <artifactId>kdtcom</artifactId>
+  <version>1.0.0-BUILD-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>kdtcom</name>
+  <description>KDT Community</description>
+  <properties>
+  <java-version>11</java-version>
+  <org.springframework-version>5.2.25.RELEASE</org.springframework-version>
+  <!-- 디버깅과 로그를 위한 셋팅 -->
+  </properties>
+</project>

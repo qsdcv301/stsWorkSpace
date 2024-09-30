@@ -1,0 +1,15 @@
+package net.taehyeon.kdtcom.mapper;
+
+import java.util.List;
+
+public interface MemberMapper {
+	MemberDto selectMem();
+
+	List<MemberDto> listMem();
+
+	void insertMem(MemberDto dto);
+
+	void updateMem(MemberDto dto);
+
+	void deleteMem(int num);
+}

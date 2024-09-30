@@ -1,0 +1,23 @@
+package net.taehyeon.kdtcom.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class FileUploadService {
+
+	private String[] allowedExt;
+	private long maxSize;
+
+	public FileUploadService() {
+	}
+
+	public FileUploadService(long maxSize) {
+		this.maxSize = maxSize;
+	}
+
+	public FileUploadService(String[] allowedExt, long maxSize) {
+		this.allowedExt = allowedExt;
+		this.maxSize = maxSize;
+	}
+
+}

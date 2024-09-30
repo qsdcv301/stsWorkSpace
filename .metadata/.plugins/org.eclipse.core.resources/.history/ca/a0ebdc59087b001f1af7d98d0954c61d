@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.musecom.mybatis.mapper.MemberMapper">
+
+	<!-- 쿼리문 : 매개변수 - parameterType 결과값 - resultType -->
+	<select id="selectMem" parameterType="int"
+		resultType="MemberDto">
+		SELECT * FROM member WHERE num = #{num}
+	</select>
+
+	<select id="listMem"
+		resultType="MemberDto">
+		SELECT * FROM member order by num desc
+	</select>
+
+	<!-- 사용자 추가 -->
+	<insert id="insertMem" parameterType="MemberDto">
+	insert into member (name,email) values (#{name}, #{email})
+	</insert>
+	
+	<!-- 사용자 수정 -->
+	<update id="updateMem" parameterType="MemberDto">
+	update member set name=#{name}, email=#{email} where num = #{num}
+	</update>
+	<!-- 사용자 삭제 -->
+	<delete id="deleteMem" parameterType="int">
+		delete from member where num = #{num}
+	</delete>
+</mapper> 
+ 

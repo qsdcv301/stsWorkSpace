@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.taehyeon.community.mapper.MemberMapper">
+    <select id="getMemberUserId" resultType="net.taehyeon.community.model.Member">
+        select * from members where userid = #{userid}
+    </select>
+    <select id="insertMember" parameterType="net.taehyeon.community.model.Member">
+        insert into members (userid, userpass, username, useremail, usertel, zipcode, address,
+        detail_address, extra_address, userimg, oruserimg, userprofile, userip) values
+        (#{userid}, #{userpass}, #{username}, #{useremail}, #{usertel},
+        #{zipcode}, #{address}, #{detail_address}, #{extra_address},
+        #{userimg}, #{oruserimg}, #{userprofile}, #{userip})
+    </select>
+</mapper>
