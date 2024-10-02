@@ -5,68 +5,58 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import taehyeon.ezen.book.dao.BoardDao;
-import taehyeon.ezen.book.dto.BoardDto;
+import taehyeon.ezen.book.dao.LibraryDao;
+import taehyeon.ezen.book.dto.LibraryDto;
 
 @Service
 public class BoardServiceImpl implements BoardService {
 
-	@Autowired
-	private BoardDao dao;
+    @Autowired
+    private LibraryDao dao;
 
-	@Override
-	public int insertBoard(BoardDto dto) {
-		return dao.insertBoard(dto);
-	}
+    @Override
+    public int insertLibrary(LibraryDto dto) {
+        return dao.insertLibrary(dto);
+    }
 
-	@Override
-	public int updateBoard(BoardDto dto) {
-		return dao.updateBoard(dto);
-	}
+    @Override
+    public int updateLibrary(LibraryDto dto) {
+        return dao.updateLibrary(dto);
+    }
 
-	@Override
-	public int updateCount(long num) {
-		return dao.updateCount(num);
-	}
+    @Override
+    public int deleteLibrary(int id) {
+        return dao.deleteLibrary(id);
+    }
 
-	@Override
-	public int deleteBoard(long num) {
-		return dao.deleteBoard(num);
-	}
+    @Override
+    public int getTotalLibraryCount() {
+        return dao.getTotalLibraryCount();
+    }
 
-	@Override
-	public int getTotalBoardCount() {
-		return dao.getTotalBoardCount();
-	}
+    @Override
+    public List<LibraryDto> listLibrary(int limit, int recordsPerPage) {
+        return dao.listLibrary(limit, recordsPerPage);
+    }
 
-	@Override
-	public List<BoardDto> listBoard(int limit, int recordsPerPage) {
-		return dao.listBoard(limit, recordsPerPage);
-	}
+    @Override
+    public LibraryDto viewLibrary(int id) {
+        return dao.viewLibrary(id);
+    }
 
-	@Override
-	public BoardDto viewBoard(long num) {
-		return dao.viewBoard(num);
-	}
+    @Override
+    public int selectBookTitle(String title, int id) {
+        return dao.selectBookTitle(title, id);
+    }
 
-	@Override
-	public int selectUserId(String userid, int num) {
-		return dao.selectUserId(userid, num);
-	}
+    @Override
+    public int getSearchLibraryCount(String searchKey, String searchVal) {
+        return dao.getSearchLibraryCount(searchKey, searchVal);
+    }
 
-	@Override
-	public int isPass(long num, String pass) {
-		return dao.isPass(num, pass);
-	}
-
-	@Override
-	public int getSearchBoardCount(String searchKey, String searchVal) {
-		return dao.getSearchBoardCount(searchKey, searchVal);
-	}
-
-	@Override
-	public List<BoardDto> listSearchBoard(String searchKey, String searchVal, int limit, int recordsPerPage) {
-		return dao.listSearchBoard(searchKey, searchVal, limit, recordsPerPage);
-	}
+    @Override
+    public List<LibraryDto> listSearchLibrary(String searchKey, String searchVal, int limit, int recordsPerPage) {
+        return dao.listSearchLibrary(searchKey, searchVal, limit, recordsPerPage);
+    }
 
 }

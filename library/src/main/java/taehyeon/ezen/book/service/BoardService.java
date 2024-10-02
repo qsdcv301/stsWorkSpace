@@ -4,30 +4,26 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import taehyeon.ezen.book.dto.BoardDto;
+import taehyeon.ezen.book.dto.LibraryDto;
 
 
 @Service
 public interface BoardService {
-	int insertBoard(BoardDto dto);
+	int insertLibrary(LibraryDto dto);
 
-	int updateBoard(BoardDto dto);
+	int updateLibrary(LibraryDto dto);
 
-	int updateCount(long num);
+	int deleteLibrary(int id);
 
-	int deleteBoard(long num);
+	int getTotalLibraryCount();
 
-	int getTotalBoardCount();
+	List<LibraryDto> listLibrary(int limit, int recordsPerPage);
 
-	List<BoardDto> listBoard(int limit, int recordsPerPage);
+	LibraryDto viewLibrary(int id);
 
-	BoardDto viewBoard(long num);
+	int selectBookTitle(String title, int id);
 
-	int selectUserId(String userid, int num);
+	int getSearchLibraryCount(String searchKey, String searchVal);
 
-	int isPass(long num, String pass);
-
-	int getSearchBoardCount(String searchKey, String searchVal);
-
-	List<BoardDto> listSearchBoard(String searchKey, String searchVal, int limit, int recordsPerPage);
+	List<LibraryDto> listSearchLibrary(String searchKey, String searchVal, int limit, int recordsPerPage);
 }
