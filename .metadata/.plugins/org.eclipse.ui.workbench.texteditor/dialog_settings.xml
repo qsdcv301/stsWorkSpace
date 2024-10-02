@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="file"/>
+		<item key="selection" value="lom"/>
 		<list key="findhistory">
+			<item value="lom"/>
+			<item value="user"/>
+			<item value="select"/>
+			<item value="selectUserId"/>
+			<item value="commons"/>
+			<item value="jdbc"/>
 			<item value="file"/>
 			<item value="tiles"/>
 			<item value="maven-"/>
@@ -17,12 +23,6 @@
 			<item value="detail"/>
 			<item value="adress"/>
 			<item value="username"/>
-			<item value="musecom"/>
-			<item value="taehyeon"/>
-			<item value="batis"/>
-			<item value="mybatis"/>
-			<item value="zipcode"/>
-			<item value="register"/>
 		</list>
 		<list key="replacehistory">
 			<item value="taehyeon"/>

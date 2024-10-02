@@ -49,6 +49,8 @@ C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\470518
 \kdtcom\src\main\java
 C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2424575663.index
 \library\src\main\java
+C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\687431726.index
+\community\src\main\java
 C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2253433236.index
 \community\src\main\java
 C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2441082261.index
