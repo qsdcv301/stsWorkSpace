@@ -3,33 +3,33 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ include file="include/header.jsp"%>
 <div class="bg-white bbs">
-	<h1 class="text-center mb-5">게시판</h1>
+	<h1 class="text-center mb-5">도서 정보</h1>
 	<table class="bbslist table-hover">
 		<colgroup>
 			<col width="10%">
-			<col width="50%">
-			<col width="15%">
-			<col width="15%">
-			<col width="10%">
+			<col width="20%">
+			<col width="20%">
+			<col width="20%">
+			<col width="30%">
 		</colgroup>
 		<thead>
 			<tr>
 				<th>번호</th>
 				<th>제목</th>
-				<th>작성자</th>
-				<th>날짜</th>
-				<th>조회수</th>
+				<th>작가</th>
+				<th>ISBN</th>
+				<th>출판날짜</th>
 			</tr>
 		</thead>
 		<tbody>
-			<c:forEach var="post" items="${boardList}">
+			<c:forEach var="post" items="${library}">
 				<tr>
-					<td class="text-center">${post.num}</td>
+					<td class="text-center">${post.id}</td>
 					<td class="ellipsis"><a
-						href="?mode=view&num=${post.num}&pg=${paging.currentPage}">${post.title}</a></td>
+						href="view?id=${post.id}&pg=${paging.currentPage}">${post.title}</a></td>
 					<td class="ellipsis text-center">${post.writer}</td>
-					<td class="text-center">${post.viewDate}</td>
-					<td class="text-center">${post.count}</td>
+					<td class="text-center">${post.isbn}</td>
+					<td class="text-center">${post.publication}</td>
 				</tr>
 			</c:forEach>
 		</tbody>
@@ -46,8 +46,8 @@
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#" data-search="title"> 제목검색 </a>
 							<a class="dropdown-item" href="#" data-search="writer"> 이름검색
-							</a> <a class="dropdown-item" href="#" data-search="contents">
-								내용검색 </a>
+							</a> <a class="dropdown-item" href="#" data-search="isbn">
+								isbn </a>
 						</div>
 					</div>
 					<input type="text" class="form-control" name="searchVal"
@@ -61,8 +61,8 @@
 			</form>
 		</div>
 		<div class="col-md-7 text-right">
-			<a href="?mode=list" class="btn btn-success">목록</a> <a
-				href="?mode=write" class="btn btn-success">글쓰기</a>
+			<a href="redirect:/" class="btn btn-success">목록</a> <a
+				href="write" class="btn btn-success">등록하기</a>
 		</div>
 	</div>
 

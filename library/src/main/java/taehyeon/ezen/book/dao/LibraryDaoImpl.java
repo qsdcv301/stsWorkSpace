@@ -47,13 +47,13 @@ public class LibraryDaoImpl implements LibraryDao {
 	@Override
 	public List<LibraryDto> listLibrary(int limit, int recordsPerPage) {
 	    String sql = "select * from book order by id desc limit ?, ?";
-	    return jdbcTemplate.query(sql, new Object[] { limit, recordsPerPage }, new BoardRowMapper());
+	    return jdbcTemplate.query(sql, new Object[] { limit, recordsPerPage }, new LibraryRowMapper());
 	}
 
 	@Override
 	public LibraryDto viewLibrary(int id) {
 		String sql = "select * from book where id = ?";
-		return jdbcTemplate.queryForObject(sql, new Object[] { id }, new BoardRowMapper());
+		return jdbcTemplate.queryForObject(sql, new Object[] { id }, new LibraryRowMapper());
 	}
 
 	@Override
