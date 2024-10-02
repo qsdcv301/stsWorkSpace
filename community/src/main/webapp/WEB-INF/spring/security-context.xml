@@ -18,7 +18,9 @@
         </authentication-provider>
     </authentication-manager>
     <!--  customAuthService 빈 등록  -->
+    <!-- 
     <beans:bean id="customAuthService" class="net.taehyeon.community.service.CustomAuthService"/>
+     -->
     <!--  비밀번호 암호화 클래스 등록  -->
     <beans:bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
 </beans:beans>

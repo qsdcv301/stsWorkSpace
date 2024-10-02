@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="community"/>
+<aop-project name="library"/>
+<aop-project name="kdtweb2"/>
 <aop-project name="kdtcom"/>
 </aop-reference-model>
