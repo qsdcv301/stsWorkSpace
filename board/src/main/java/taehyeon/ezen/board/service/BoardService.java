@@ -13,15 +13,15 @@ public interface BoardService {
 
 	int updateBoard(BoardDto dto);
 
-	int deleteBoard(int id);
+	int deleteBoard(long num);
 
 	int getTotalBoardCount();
 
 	List<BoardDto> listBoard(int limit, int recordsPerPage);
 
-	BoardDto viewBoard(int id);
+	BoardDto viewBoard(long num);
 
-	int selectBookTitle(String title, int id);
+	int selectBookTitle(String title, long num);
 
 	int getSearchBoardCount(String searchKey, String searchVal);
 

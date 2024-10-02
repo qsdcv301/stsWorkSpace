@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8" %>
+	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ include file="include/header.jsp"%>
 <div class="bg-white bbs">
@@ -22,9 +22,9 @@
 		<tbody>
 			<c:forEach var="post" items="${boardView}">
 				<tr>
-					<td class="text-center">${post.id}</td>
+					<td class="text-center">${post.num}</td>
 					<td class="ellipsis"><a
-						href="view?id=${post.id}&pg=${paging.currentPage}">${post.title}</a></td>
+						href="view?num=${post.num}&pg=${paging.currentPage}">${post.title}</a></td>
 					<td class="ellipsis text-center">${post.writer}</td>
 					<td class="text-center">${post.create_at}</td>
 				</tr>
@@ -42,7 +42,7 @@
 							data-toggle="dropdown" id="searchtext">제목검색</button>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#" data-search="title"> 제목검색 </a>
-							<a class="dropdown-item" href="#" data-search="writer"> 작성자검색 </a>
+							<a class="dropdown-item" href="#" data-search="writer"> 이름검색</a>
 						</div>
 					</div>
 					<input type="text" class="form-control" name="searchVal"

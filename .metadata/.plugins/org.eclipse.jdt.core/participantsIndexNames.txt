@@ -51,6 +51,10 @@ C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\242457
 \library\src\main\java
 C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\687431726.index
 \community\src\main\java
+C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\805836054.index
+\board\src\main\java
+C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1210727227.index
+\board\src\main\java
 C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2253433236.index
 \community\src\main\java
 C:\project\stsworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2441082261.index

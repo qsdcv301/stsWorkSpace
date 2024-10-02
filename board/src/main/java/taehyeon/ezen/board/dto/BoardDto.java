@@ -1,16 +1,17 @@
 package taehyeon.ezen.board.dto;
 
-import lombok.Data;
 
-import java.sql.Date;
+import java.sql.Timestamp;
+
+import lombok.Data;
 
 @Data
 public class BoardDto {
 	private long num;
 	private String title;
-	private String content;
+	private String contents;
 	private String writer;
-	private Date create_at;
+	private Timestamp create_at;
 
 
 }

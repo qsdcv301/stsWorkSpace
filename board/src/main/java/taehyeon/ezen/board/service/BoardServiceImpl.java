@@ -25,8 +25,8 @@ public class BoardServiceImpl implements BoardService {
     }
 
     @Override
-    public int deleteBoard(int id) {
-        return dao.deleteBoard(id);
+    public int deleteBoard(long num) {
+        return dao.deleteBoard(num);
     }
 
     @Override
@@ -40,13 +40,13 @@ public class BoardServiceImpl implements BoardService {
     }
 
     @Override
-    public BoardDto viewBoard(int id) {
-        return dao.viewBoard(id);
+    public BoardDto viewBoard(long num) {
+        return dao.viewBoard(num);
     }
 
     @Override
-    public int selectBookTitle(String title, int id) {
-        return dao.selectBookTitle(title, id);
+    public int selectBookTitle(String title, long num) {
+        return dao.selectBoardTitle(title, num);
     }
 
     @Override

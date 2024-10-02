@@ -21,7 +21,7 @@ public class BoardController {
 	BoardDto BoardDto;
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(@RequestParam(value = "id", required = false) Integer id,
+	public String home(@RequestParam(value = "num", required = false) Long num,
 					   @RequestParam(value = "pg", required = false, defaultValue = "1") int currentPage,
 					   @RequestParam(value = "searchKey", required = false, defaultValue = "title") String searchKey,
 					   @RequestParam(value = "searchVal", required = false) String searchVal, Model model) {
@@ -42,7 +42,7 @@ public class BoardController {
 		Paging paging = new Paging(totalRecords, recordsPerPage, currentPage, pagesPerGroup);
 
 		model.addAttribute("paging", paging);
-		model.addAttribute("Board", BoardDtoList);
+		model.addAttribute("boardView", BoardDtoList);
 		model.addAttribute("encodeSearchKey", URLEncoder.encode(searchKey, StandardCharsets.UTF_8));
 		model.addAttribute("encodeSearchVal",
 				URLEncoder.encode(searchVal != null ? searchVal : "", StandardCharsets.UTF_8));
@@ -50,12 +50,12 @@ public class BoardController {
 	}
 	
 	@GetMapping("/edit")
-	public String edit(@RequestParam(value = "id", required = false) int id,
+	public String edit(@RequestParam(value = "num", required = false) long num,
 					   @RequestParam(value = "pg", required = false, defaultValue = "1") int currentPage,
 					   @RequestParam(value = "searchKey", required = false, defaultValue = "title") String searchKey,
 					   @RequestParam(value = "searchVal", required = false) String searchVal, Model model) {
 
-		BoardDto = BoardService.viewBoard(id);
+		BoardDto = BoardService.viewBoard(num);
 		model.addAttribute("boardView", BoardDto);
 		return "edit";
 	}
@@ -66,11 +66,11 @@ public class BoardController {
 	}
 
 	@GetMapping("/view")
-	public String view(@RequestParam(value = "id", required = false) int id,
+	public String view(@RequestParam(value = "num", required = false) long num,
 					   @RequestParam(value = "pg", required = false, defaultValue = "1") int currentPage,
 					   @RequestParam(value = "searchKey", required = false, defaultValue = "title") String searchKey,
 					   @RequestParam(value = "searchVal", required = false) String searchVal, Model model) {
-		BoardDto = BoardService.viewBoard(id);
+		BoardDto = BoardService.viewBoard(num);
 		model.addAttribute("currentPage", currentPage);
 		model.addAttribute("boardView", BoardDto);
 		return "view";
@@ -89,8 +89,8 @@ public class BoardController {
 	}
 
 	@GetMapping("/del")
-	public String Del(@RequestParam("id") int id){
-		BoardService.deleteBoard(id);
+	public String Del(@RequestParam("num") long num){
+		BoardService.deleteBoard(num);
 		return "redirect:/";
 	}
 }

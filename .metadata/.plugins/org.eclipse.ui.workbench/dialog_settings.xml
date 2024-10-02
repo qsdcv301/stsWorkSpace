@@ -11,4 +11,8 @@
 		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="com.springsource.sts.config.ui.editors.SpringConfigEditor"/>
 	</section>
+	<section name="ImportExportAction">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>

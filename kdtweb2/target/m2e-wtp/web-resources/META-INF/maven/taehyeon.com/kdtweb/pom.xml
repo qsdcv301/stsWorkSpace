@@ -56,7 +56,12 @@
 			<version>8.4.0</version>
 		</dependency>
 		<!-- //db 접속 추가부분 끝 -->
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+			<scope>provided</scope>
+		</dependency>
 
 		<!-- AspectJ -->
 		<dependency>

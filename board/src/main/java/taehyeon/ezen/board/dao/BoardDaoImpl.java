@@ -20,15 +20,15 @@ public class BoardDaoImpl implements BoardDao {
 
     @Override
     public int insertBoard(BoardDto dto) {
-        String sql = "insert into board (title, writer, contents, create_at) "
-                + "values (?, ?, ?, ?)";
-        return jdbcTemplate.update(sql, dto.getTitle(), dto.getWriter(), dto.getContent(), dto.getCreate_at());
+        String sql = "insert into board (title, writer, contents) "
+                + "values (?, ?, ?)";
+        return jdbcTemplate.update(sql, dto.getTitle(), dto.getWriter(), dto.getContents());
     }
 
     @Override
     public int updateBoard(BoardDto dto) {
-        String sql = "update board SET title = ?, writer = ?, contents = ?, create_at = ? where num = ?";
-        return jdbcTemplate.update(sql, dto.getTitle(), dto.getWriter(), dto.getContent(), dto.getCreate_at(), dto.getNum());
+        String sql = "update board SET title = ?, writer = ?, contents = ? where num = ?";
+        return jdbcTemplate.update(sql, dto.getTitle(), dto.getWriter(), dto.getContents(), dto.getNum());
     }
 
     @Override
@@ -45,7 +45,7 @@ public class BoardDaoImpl implements BoardDao {
 
     @Override
     public List<BoardDto> listBoard(int limit, int recordsPerPage) {
-        String sql = "select * from board order by id desc limit ?, ?";
+        String sql = "select * from board order by num desc limit ?, ?";
         return jdbcTemplate.query(sql, new Object[]{limit, recordsPerPage}, new BoardRowMapper());
     }
 
@@ -69,7 +69,7 @@ public class BoardDaoImpl implements BoardDao {
 
     @Override
     public List<BoardDto> listSearchBoard(String searchKey, String searchVal, int limit, int recordsPerPage) {
-        String sql = "select * from board where " + searchKey + " like ? order by id desc limit ?, ?";
+        String sql = "select * from board where " + searchKey + " like ? order by num desc limit ?, ?";
         return jdbcTemplate.query(sql, new Object[]{"%" + searchVal + "%", limit, recordsPerPage}, new BoardRowMapper());
     }
 
@@ -80,8 +80,8 @@ public class BoardDaoImpl implements BoardDao {
             Board.setNum(rs.getLong("num"));
             Board.setTitle(rs.getString("title"));
             Board.setWriter(rs.getString("writer"));
-            Board.setContent(rs.getString("contents"));
-            Board.setCreate_at(rs.getDate("create_at"));
+            Board.setContents(rs.getString("contents"));
+            Board.setCreate_at(rs.getTimestamp("create_at"));
             return Board;
         }
     }

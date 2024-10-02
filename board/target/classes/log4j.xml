@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="taehyeon.ezen.book">
+	<logger name="taehyeon.ezen.board">
 		<level value="info" />
 	</logger>
 	
