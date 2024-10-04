@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import taehyeon.ezen.board.dao.BoardDao;
 import taehyeon.ezen.board.dto.BoardDto;
+import taehyeon.ezen.board.repository.BoardDao;
 
 @Service
 public class BoardServiceImpl implements BoardService {

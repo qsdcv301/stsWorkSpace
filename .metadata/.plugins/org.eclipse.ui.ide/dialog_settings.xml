@@ -115,6 +115,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\project\stsworks\community"/>
+			<item value="C:\project\stsworks\library"/>
+			<item value="C:\project\stsworks"/>
 			<item value="C:\project\stsworks\board"/>
 			<item value="C:\project\stsworks\kdtweb"/>
 			<item value="C:\project\stsworks\kdtweb2"/>

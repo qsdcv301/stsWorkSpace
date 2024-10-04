@@ -7,9 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>도서 관리 시스템</title>
+    <title>게시판</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/fonts.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/remixicon.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">

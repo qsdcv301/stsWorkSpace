@@ -1,5 +1,0 @@
-package net.taehyeon.kdtcom.dao;
-
-public interface MemberDao {
-
-}

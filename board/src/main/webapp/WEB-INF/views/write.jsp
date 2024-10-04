@@ -8,7 +8,7 @@
 <script src="${pageContext.request.contextPath}/resources/js/lang/summernote-ko-KR.js"></script>
 <div class="bg-white bbs">
 
-    <h1 class="text-center my-5">글수정</h1>
+    <h1 class="text-center my-5">글작성</h1>
     <form name="update_form" id="update_form" class="row was-valited" method="post" action="write">
         <div class="col-md-6 my-3">
             <div class="row align-items-center">
