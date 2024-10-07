@@ -87,7 +87,7 @@ public class MainController {
         //primary key auto increment 값 얻기
         int membersid = member.getId();
         memberRole.setId(membersid);
-        memberRole.setUser_role(role);
+        memberRole.setUserRole(role);
         memberDao.insertMemRole(memberRole);
 
         model.addAttribute("nimg", member.getUserimg());
@@ -96,7 +96,10 @@ public class MainController {
     }
 
     @GetMapping("/login")
-    public String LoginForm(Model model) {
+    public String LoginForm(@RequestParam(value = "error", required = false) String error, Model model) {
+        if(error != null) {
+            model.addAttribute("errorMessage", "아이디 또는 비밀번호가 틀렸습니다.");
+        }
         return "login";
     }
 
@@ -108,5 +111,11 @@ public class MainController {
     @GetMapping("/admin")
     public String adminIndex(Model model) {
         return "admin.index";
+    }
+
+    @GetMapping("/home")
+    public String Home(Model model) {
+        model.addAttribute("error","");
+        return "home";
     }
 }
