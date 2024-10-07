@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="view"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="net"/>
+			<item value="security"/>
 			<item value="view"/>
 			<item value="content"/>
 			<item value="create"/>
@@ -21,8 +23,6 @@
 			<item value="jdbc"/>
 			<item value="file"/>
 			<item value="tiles"/>
-			<item value="maven-"/>
-			<item value="maven"/>
 		</list>
 		<list key="replacehistory">
 			<item value="taehyeon"/>

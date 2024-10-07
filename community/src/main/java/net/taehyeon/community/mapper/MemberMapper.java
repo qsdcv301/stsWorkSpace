@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface MemberMapper {
     Member getMemberUserId(String userid);
+    MemberRole getMemberRole(int membersid);
     void insertMember(Member member);
     void setInsertRole(MemberRole role);
 }

@@ -2,15 +2,19 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="net.taehyeon.community.mapper.MemberMapper">
-    <select id="getMemberUserId" resultType="net.taehyeon.community.model.Member">
-        select * from members where userid = #{userid}
+<mapper namespace="net.musecom.comunity.mapper.MemberMapper">
+    <select id="getMemberUserId" parameterType="String" resultType="Member">SELECT * FROM members WHERE userid = #{userid}</select>
+    <select id="getMemberRole" parameterType="int" resultType="MemberRole">
+        select * from members_role where membersid=#{membersid}
     </select>
-    <select id="insertMember" parameterType="net.taehyeon.community.model.Member">
-        insert into members (userid, userpass, username, useremail, usertel, zipcode, address,
-        detail_address, extra_address, userimg, oruserimg, userprofile, userip) values
-        (#{userid}, #{userpass}, #{username}, #{useremail}, #{usertel},
-        #{zipcode}, #{address}, #{detail_address}, #{extra_address},
-        #{userimg}, #{oruserimg}, #{userprofile}, #{userip})
-    </select>
+    <insert id="setInsertMember" parameterType="Member" useGeneratedKeys="true" keyProperty="id">insert into members (
+        userid, userpass,username, useremail, usertel, zipcode, address, detail_address, extra_address, userimg,
+        oruserimg, userprofile, userip ) values ( #{userid}, #{userpass}, #{username}, #{useremail}, #{usertel},
+        #{zipcode}, #{address}, #{detail_address}, #{extra_address}, #{userimg}, #{oruserimg}, #{userprofile}, #{userip}
+        )
+    </insert>
+    <!--  권한정보  -->
+    <insert id="setInsertRole" parameterType="MemberRole">insert into members_role (membersid, user_role) values
+        (#{membersid}, #{user_role})
+    </insert>
 </mapper>
