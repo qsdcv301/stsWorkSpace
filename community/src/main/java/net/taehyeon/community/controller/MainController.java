@@ -34,7 +34,7 @@ public class MainController {
 
     @GetMapping("/register")
     public String register(Model model) {
-        return "member.register";
+        return "register";
     }
 
     @PostMapping("/register")
@@ -71,14 +71,14 @@ public class MainController {
                 fileUploadService.setAbsolutePath("members");
                 String[] exts = {"jpg", "gif", "png"};
                 fileUploadService.setAllowedExt(exts);
-                long maxsize = 1 * 1024 * 1024; // 1硫붽�
+                long maxsize = 1 * 1024 * 1024;
                 fileUploadService.setMaxSize(maxsize);
                 String[] filesname = fileUploadService.uploadFile(userimg);
                 member.setOruserimg(filesname[0]);
                 member.setUserimg(filesname[1]);
             } catch (Exception e) {
                 model.addAttribute("error", e.getMessage());
-                return "member.index";
+                return "home";
             }
         }
 
@@ -92,7 +92,7 @@ public class MainController {
 
         model.addAttribute("nimg", member.getUserimg());
         AbandonedConnectionCleanupThread.checkedShutdown();
-        return "member.index";
+        return "home";
     }
 
     @GetMapping("/login")

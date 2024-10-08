@@ -1,4 +1,9 @@
 $(function () {
+  $(".photos-gallery").pycsLayout({
+    pictureContainer: ".picture",
+    gutter: 5,
+    idealHeight: 120,
+  });
   $("#register").submit(function () {
     //e.preventDefault();
 
@@ -22,10 +27,12 @@ $(function () {
     if (!regex.value("#rguserpass", "비밀번호를 입력하세요.")) {
       return false;
     }
-    if (!regex.min_length("#rguserpass", 4, "비밀번호는 최소4자 까지 입니다.")) {
+    if (
+      !regex.min_length("#rguserpass", 4, "비밀번호는 최소4자 까지 입니다.")
+    ) {
       return false;
     }
-    if (!regex.value("#rgreuserpass", "비밀번호를 다시 확인해 주세요.")) {
+    if (!regex.value("#reuserpass", "비밀번호를 다시 확인해 주세요.")) {
       return false;
     }
     if (

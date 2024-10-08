@@ -6,6 +6,9 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   background: #eff2f6;
 }
+.logo img {
+  max-width: 100%;
+}
 .pl-300 {
   padding-left: 320px;
   padding-top: 20px;
