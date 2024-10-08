@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="csrf"/>
 		<list key="findhistory">
+			<item value="csrf"/>
+			<item value="cr"/>
+			<item value="userpass"/>
+			<item value="pass"/>
+			<item value="userid"/>
+			<item value="coding"/>
 			<item value="net"/>
 			<item value="security"/>
 			<item value="view"/>
@@ -17,12 +23,6 @@
 			<item value="id"/>
 			<item value="lom"/>
 			<item value="user"/>
-			<item value="select"/>
-			<item value="selectUserId"/>
-			<item value="commons"/>
-			<item value="jdbc"/>
-			<item value="file"/>
-			<item value="tiles"/>
 		</list>
 		<list key="replacehistory">
 			<item value="taehyeon"/>
