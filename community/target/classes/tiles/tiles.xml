@@ -21,15 +21,15 @@
 	<definition name="admin.*"
 		template="/WEB-INF/views/layouts/layout_admin.jsp">
 		<put-attribute name="title"
-			value="Tiles tutorial homepage" />
+			value="커뮤니티 관리자 모드" />
 		<put-attribute name="header"
-			value="/WEB-INF/views/include/header.jsp" />
+			value="/WEB-INF/views/admin/include/header.jsp" />
 		<put-attribute name="aside"
-			value="/WEB-INF/views/include/aside.jsp" />
+			value="/WEB-INF/views/admin/include/aside.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/admin/{1}.jsp" />
 		<put-attribute name="footer"
-			value="/WEB-INF/views/include/footer.jsp" />
+			value="/WEB-INF/views/admin/include/footer.jsp" />
 	</definition>
 	<!-- 일반 -->
 	<definition name="*"

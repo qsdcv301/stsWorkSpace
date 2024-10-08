@@ -15,10 +15,10 @@
 	<form action="./login" method="post">
 		<table>
 			<tr>
-				<td><input type="text" name="userid" id="userid"></td>
+				<td><input type="text" name="userid" id="mkuserid"></td>
 			</tr>
 			<tr>
-				<td><input type="password" name="userpass" id="userpass"></td>
+				<td><input type="password" name="userpass" id="mkuserpass"></td>
 			</tr>
 			<tr>
 				<td class="text-center"><input type="reset" value=" 리 셋 " /> <input

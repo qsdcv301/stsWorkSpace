@@ -11,7 +11,7 @@
                                 <div class="row">
                                     <div class="col-md-3 text-right"><span class="text-danger">*</span>아이디</div>
                                     <div class="col-md-4">
-                                        <input type="text" name="userid" id="userid" class="form-control">
+                                        <input type="text" name="userid" id="rguserid" class="form-control">
                                         <input type="hidden" id="ok" />
                                     </div>
                                     <div class="col-md-3"><button type="button" id="checkid" class="btn btn-warning">아이디중복검사</button></div>
@@ -21,7 +21,7 @@
                                 <div class="row">
                                     <div class="col-md-3 text-right"><span class="text-danger">*</span>비밀번호</div>
                                     <div class="col-md-4">
-                                        <input type="password" name="userpass" id="userpass" class="form-control">
+                                        <input type="password" name="userpass" id="rguserpass" class="form-control">
                                     </div>
                                 </div>
                             </li>
