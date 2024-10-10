@@ -7,9 +7,8 @@
 <p class="text-center text-secondary">
 	<span class="text-danger">*</span>표시가 있는 곳은 필수 입니다.
 </p>
-<form name="register" id="register" action="register" method="post"
+<form name="register" id="register" action="register?${_csrf.parameterName}=${_csrf.token}" method="post"
 	enctype="multipart/form-data">
-	    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 	<ul class="list-group list-group-flush">
 		<li class="list-group-item">
 			<div class="row">
@@ -125,7 +124,7 @@
 		<button type="reset" class="btn btn-danger mr-2 px-4">취소</button>
 		<button type="submit" class="btn btn-primary ml-2 px-4">전송</button>
 	</div>
-	<input type="hidden" name="role" value="ROLE_USER" />
+	<input type="hidden" name="role" value="USER" />
 </form>
 <script
 	src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>

@@ -2,24 +2,31 @@ package net.taehyeon.community.controller;
 
 import com.mysql.cj.jdbc.AbandonedConnectionCleanupThread;
 import net.taehyeon.community.dao.MemberDao;
+import net.taehyeon.community.mapper.MemberMapper;
+import net.taehyeon.community.model.CustomUserDetails;
 import net.taehyeon.community.model.Member;
 import net.taehyeon.community.model.MemberRole;
 import net.taehyeon.community.service.ClientIpAddress;
 import net.taehyeon.community.service.FileUploadService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Locale;
 
 @Controller
+@RequestMapping("/")
 public class MainController {
 
+    @Autowired
+    private MemberMapper memberMapper;
+	
     @Autowired
     private ClientIpAddress clientIpAddress;
 
@@ -32,6 +39,21 @@ public class MainController {
     @Autowired
     BCryptPasswordEncoder bCryptPasswordEncoder;
 
+    @ModelAttribute
+    public void addCommonAttributes(Model model) {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        Member member = null;
+
+        if (auth != null && auth.isAuthenticated() && auth.getPrincipal() instanceof CustomUserDetails) {
+            CustomUserDetails userDetails = (CustomUserDetails) auth.getPrincipal();
+            String userid = userDetails.getUsername();
+
+            member = memberMapper.getMemberUserId(userid);
+        }
+
+        model.addAttribute("member", member);
+    }
+    
     @GetMapping("/register")
     public String register(Model model) {
         return "register";
@@ -113,8 +135,13 @@ public class MainController {
         return "admin.index";
     }
 
-    @GetMapping("/home")
-    public String Home(Model model) {
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String Home(Locale locale, Model model) {
+        model.addAttribute("error","");
+        return "home";
+    }
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public String home(Locale locale, Model model) {
         model.addAttribute("error","");
         return "home";
     }
