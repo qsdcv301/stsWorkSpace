@@ -16,6 +16,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Locale;
@@ -67,7 +68,7 @@ public class MainController {
                                @RequestParam("extra_address") String extra_address, @RequestParam("role") String role,
                                @RequestParam("userprofile") String userprofile,
                                @RequestParam(value = "userimg", required = false) MultipartFile userimg, HttpServletRequest request,
-                               Model model) {
+                               Model model, RedirectAttributes redirectAttributes) {
 
         Member member = new Member();
         MemberRole memberRole = new MemberRole();
@@ -99,8 +100,8 @@ public class MainController {
                 member.setOruserimg(filesname[0]);
                 member.setUserimg(filesname[1]);
             } catch (Exception e) {
-                model.addAttribute("error", e.getMessage());
-                return "home";
+                redirectAttributes.addFlashAttribute("error", e.getMessage());
+                return "redirect:/";
             }
         }
 
@@ -108,17 +109,17 @@ public class MainController {
 
         //primary key auto increment 값 얻기
         int membersid = member.getId();
-        memberRole.setId(membersid);
+        memberRole.setMembersid(membersid);
         memberRole.setUserRole(role);
         memberDao.insertMemRole(memberRole);
 
         model.addAttribute("nimg", member.getUserimg());
         AbandonedConnectionCleanupThread.checkedShutdown();
-        return "home";
+        return "redirect:/";
     }
 
     @GetMapping("/login")
-    public String LoginForm(@RequestParam(value = "error", required = false) String error, Model model) {
+    public String LoginForm(@RequestParam(value = "error", required = false) String error, Model model, RedirectAttributes redirectAttributes) {
         if(error != null) {
             model.addAttribute("errorMessage", "아이디 또는 비밀번호가 틀렸습니다.");
         }
@@ -136,13 +137,8 @@ public class MainController {
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String Home(Locale locale, Model model) {
-        model.addAttribute("error","");
-        return "home";
-    }
-    @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public String home(Locale locale, Model model) {
-        model.addAttribute("error","");
-        return "home";
+    public String Home(Locale locale, Model model, RedirectAttributes redirectAttributes) {
+        redirectAttributes.addFlashAttribute("error","");
+        return "redirect:/";
     }
 }
